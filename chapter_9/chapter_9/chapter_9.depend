@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1494045241 source:/home/zlg/my_git/language/cplusplus/chapter_9/chapter_9/main.cpp
+	"Human.h"
+
+1494045543 /home/zlg/my_git/language/cplusplus/chapter_9/chapter_9/include/Human.h
+	<iostream>
+	<string>
+
+1494045571 source:/home/zlg/my_git/language/cplusplus/chapter_9/chapter_9/src/Human.cpp
+	"Human.h"
+
