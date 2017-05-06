@@ -12,6 +12,7 @@ c++ programming language
 * [类的概念](http://www.jianshu.com/p/b0d20f4e0559) 
 
 * 访问修饰符
+
 * 构造函数和析构函数
 
 Q1: 如何定义一个类
