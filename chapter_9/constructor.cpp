@@ -15,11 +15,11 @@ public:
     //     cout << "this is Human constructor" << endl;
     // }
 
-    Human(string name = "Lilei", int age = 30)
+    Human(string name = "Lilei", int age = 30):m_name(name), m_age(age)
     {
         cout << "this is Human constructor" << endl;
-        m_name = name;
-        m_age  = age;
+        // m_name = name;
+        // m_age  = age;
     }
 
     ~Human()
