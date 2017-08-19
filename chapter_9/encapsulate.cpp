@@ -15,6 +15,13 @@ public:
         cout << "this is Human constructor" << endl;
     }
 
+    Human(string name, int age)
+    {
+        cout << "this is Human constructor" << endl;
+        m_name = name;
+        m_age  = age;
+    }
+
     ~Human()
     {
         cout << "this is Human deconstructor" << endl;
@@ -55,6 +62,10 @@ int main()
     Tom.set_age(28);
 
     Tom.human_info();
+
+    Human Lucy = Human("Lucy", 26);
+
+    Lucy.human_info();
 
     return 0;
 }
