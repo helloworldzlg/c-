@@ -21,6 +21,11 @@ public:
         else
             cout << "is a sea fish!!!" << endl;
     }
+
+    void swim(int length)
+    {
+        cout << "I can swim length: " << length << endl;
+    }
 };
 
 class Tuna : public Fish
@@ -30,16 +35,11 @@ public:
     {
         cout << "Tuna constructor!" << endl;
         Fish::swim();
-    }    
-};
+    }
 
-class Carp : public Fish
-{
-public:
-    Carp() : Fish(true)
+    void swim()
     {
-        cout << "Carp constructor!" << endl;
-        Fish::swim();
+        cout << "this is Tuna's swim" << endl;
     }
 };
 
@@ -49,22 +49,7 @@ int main()
 
     tuna.swim();
 
-    Carp carp;
-
-    carp.swim();
-
-    tuna.Fish::swim();
-
-    carp.Fish::swim();
-
-    // carp.m_isfreshwater = false;
-    // tuna.m_isfreshwater = true;
-
-    // cout << "carp ";
-    // carp.swim();
-
-    // cout << "tuna ";
-    // tuna.swim();
+    tuna.Fish::swim(100);
 
     return 0;
 }
