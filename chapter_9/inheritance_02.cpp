@@ -5,8 +5,14 @@ using namespace std;
 
 class Fish
 {
-public:
+private:
     bool m_isfreshwater;
+
+public:
+    Fish(bool isfreshwater)
+    {
+        m_isfreshwater = isfreshwater;
+    }
 
     void swim()
     {
@@ -14,26 +20,26 @@ public:
             cout << "is a fresh water fish!!!" << endl;
         else
             cout << "is a sea fish!!!" << endl;
-    }    
+    }
 };
 
 class Tuna : public Fish
 {
 public:
-    Tuna()
+    Tuna() : Fish(false)
     {
         cout << "Tuna constructor!" << endl;
-        m_isfreshwater = false;
+        //m_isfreshwater = false;
     }    
 };
 
 class Carp : public Fish
 {
 public:
-    Carp()
+    Carp() : Fish(true)
     {
         cout << "Carp constructor!" << endl;
-        m_isfreshwater = true;
+        //m_isfreshwater = true;
     }
 };
 
@@ -47,14 +53,14 @@ int main()
 
     carp.swim();
 
-    carp.m_isfreshwater = false;
-    tuna.m_isfreshwater = true;
+    // carp.m_isfreshwater = false;
+    // tuna.m_isfreshwater = true;
 
-    cout << "carp ";
-    carp.swim();
+    // cout << "carp ";
+    // carp.swim();
 
-    cout << "tuna ";
-    tuna.swim();
+    // cout << "tuna ";
+    // tuna.swim();
 
     return 0;
 }
