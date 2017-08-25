@@ -8,6 +8,7 @@ class Fish
 private:
 
 public:
+    //virtual void swim()
     void swim()
     {
         cout << "this is Fish swim!!!" << endl;
