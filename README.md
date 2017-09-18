@@ -9,9 +9,9 @@ c++ programming language
 
 ### 2.1 面向对象的语法特性
 ---
-* [类的概念](http://www.jianshu.com/p/b0d20f4e0559) 
+* [类的概念](http://www.jianshu.com/p/b0d20f4e0559)
 
-* [访问限定符](http://www.jianshu.com/p/b4c25e5a5e20) 
+* [访问限定符](http://www.jianshu.com/p/b4c25e5a5e20)
 
 * 构造函数和析构函数
 构造函数的用途：用来对类的成员变量进行初始化；
@@ -19,8 +19,8 @@ c++ programming language
 构造函数重载
 使用初始化列表来对成员变量进行初始化
 
-Q1: 如何定义一个类
-Q2: 什么情况下需要使用构造函数
+Q1: 如何定义一个类  
+Q2: 什么情况下需要使用构造函数  
 Q3: 类的属性分配内存和初始化在什么时候执行 
 
 ---
