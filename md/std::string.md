@@ -1,10 +1,13 @@
 ## std::string
 
 > 头文件 `#include <string>`
-> 用于字符串操作的容器类，不仅能根据应用程序的需求动态调整大小，还提供很多有用的辅助函数，用来操作字符串
+> 用于字符串操作的容器类，不仅能根据应用程序的需求动态调整大小，还提供很多有用的辅助函数，用来操作字符串。
 
 ### 常用的辅助函数的功能
 * [实例化和复制](../09_STL_Guide/STL_string/instantiation.cpp)  
+* 访问string的字符内容
+	1). [下标方式访问](../09_STL_Guide/STL_string/access_string_by_index.cpp)  
+	2). [迭代器方式访问](../09_STL_Guide/STL_string/access_string_by_iterator.cpp)  
 * 连接
 * 查找字符和子字符串
 * 截断
