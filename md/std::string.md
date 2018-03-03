@@ -11,5 +11,5 @@
 * [连接](../09_STL_Guide/STL_string/link_strings.cpp)  
 * [查找字符和子字符串](../09_STL_Guide/STL_string/search_string.cpp)  
 * [截断](../09_STL_Guide/STL_string/earse_string.cpp)  
-* 字符串反转
-* 字符串大小写转换
+* [字符串反转](../09_STL_Guide/STL_string/reverse_string.cpp)  
+* [字符串大小写转换](../09_STL_Guide/STL_string/transform_string.cpp)  
