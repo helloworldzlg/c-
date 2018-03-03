@@ -9,9 +9,11 @@
 * 存储的元素数目是动态的，由vector类管理内存
 
 ### std_vector的使用
-* 实例化
-* 末尾添加元素
-* 在指定位置插入元素
-* 访问vector中的元素
-* 删除vector中的元素
-* vector的大小和容量
+* [实例化](../09_STL_Guide/STL_vector/instantation.cpp)  
+* [末尾添加元素](../09_STL_Guide/STL_vector/pushback_vector.cpp)  
+* [在指定位置插入元素](../09_STL_Guide/STL_vector/insert_vector.cpp)  
+* 访问vector中的元素  
+	* [通过index访问](../09_STL_Guide/STL_vector/insert_vector.cpp )   
+	* [通过iterator访问](../09_STL_Guide/STL_vector/insert_vector.cpp)  
+* [删除vector中的元素](../09_STL_Guide/STL_vector/popback_vector.cpp)  
+* [vector的大小和容量](../09_STL_Guide/STL_vector/size_capacity_vector.cpp)  
