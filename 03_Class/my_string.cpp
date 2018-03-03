@@ -21,7 +21,7 @@ public:
             buffer = NULL;
         }
     }
- 
+
     ~my_string()
     {
         if (buffer != NULL)

@@ -10,16 +10,16 @@ private:
     int m_age;
 
 public:
-    Human()
-    {
-        cout << "this is Human constructor" << endl;
-    }
+    // Human()
+    // {
+    //     cout << "this is Human constructor" << endl;
+    // }
 
-    Human(string name, int age)
+    Human(string name = "Lilei", int age = 30):m_name(name), m_age(age)
     {
         cout << "this is Human constructor" << endl;
-        m_name = name;
-        m_age  = age;
+        // m_name = name;
+        // m_age  = age;
     }
 
     ~Human()
@@ -29,7 +29,7 @@ public:
 
     void set_name(string name)
     {
-        m_name = name;    
+        m_name = name;
     }
 
     string get_name(void)
@@ -39,19 +39,19 @@ public:
 
     void set_age(int age)
     {
-        m_age = age;    
+        m_age = age;
     }
 
     int get_age(void)
     {
         return m_age;
-    }    
+    }
 
     void human_info()
     {
         cout << "name = " << this->m_name << endl;
         cout << "age = " << this->m_age << endl;
-    }  
+    }
 };
 
 int main()
@@ -64,8 +64,10 @@ int main()
     Tom.human_info();
 
     Human Lucy = Human("Lucy", 26);
-
     Lucy.human_info();
+
+    Human default_human;
+    default_human.human_info();
 
     return 0;
 }

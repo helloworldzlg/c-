@@ -13,7 +13,7 @@ public:
     void Swim(bool inputparam)
     {
         cout << "this is Fish with param swim function" << endl;
-    }  
+    }
 
 private:
     bool FreshWaterFish;

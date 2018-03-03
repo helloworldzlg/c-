@@ -27,7 +27,7 @@ public:
     {
         cout << "name = " << this->m_name << endl;
         cout << "age = " << this->m_age << endl;
-    }  
+    }
 };
 
 int main()

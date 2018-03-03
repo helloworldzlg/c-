@@ -14,7 +14,7 @@ public:
             cout << "is a fresh water fish!!!" << endl;
         else
             cout << "is a sea fish!!!" << endl;
-    }    
+    }
 };
 
 class Tuna : public Fish
@@ -24,7 +24,7 @@ public:
     {
         cout << "Tuna constructor!" << endl;
         m_isfreshwater = false;
-    }    
+    }
 };
 
 class Carp : public Fish
@@ -35,6 +35,12 @@ public:
         cout << "Carp constructor!" << endl;
         m_isfreshwater = true;
     }
+public:
+    Carp()
+    {
+        cout << "Carp constructor!" << endl;
+        m_isfreshwater = true;
+    }   
 };
 
 int main()
