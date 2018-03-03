@@ -10,9 +10,9 @@
 
 ### std_deque的使用
 * [实例化](../09_STL_Guide/STL_deque/instantation.cpp)  
-* [头部添加元素](../09_STL_Guide/STL_deque/push_front_deque.cpp)  
+* [头部添加元素](../09_STL_Guide/STL_deque/pushfront_deque.cpp)  
 * [末尾添加元素](../09_STL_Guide/STL_deque/pushback_deque.cpp)  
 * [在指定位置插入元素](../09_STL_Guide/STL_deque/instantation.cpp)  
-* [访问deque中的元素](../09_STL_Guide/STL_deque/instantation.cpp)  
-* [删除deque中的元素](../09_STL_Guide/STL_deque/instantation.cpp)  
-* [deque的大小和容量](../09_STL_Guide/STL_deque/instantation.cpp)  
+* [访问deque中的元素](../09_STL_Guide/STL_deque/pushfront_deque.cpp)  
+* [删除deque中的元素](../09_STL_Guide/STL_deque/pushfront_deque.cpp)  
+* [deque的大小和容量](../09_STL_Guide/STL_deque/size_capacity_deque.cpp)  
