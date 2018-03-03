@@ -5,19 +5,16 @@ using namespace std;
 
 int main()
 {
-    string strA("hello");
+    string strA = "helloworld";
     cout << "strA = " << strA << endl;
 
-    string strB("world");
+    string strB("helloworld");
     cout << "strB = " << strB << endl;
 
-    strA += strB;
-    cout << "strA = " << strA << endl;
-
-    string strC;
-    strC.append(strA);
-    strC.append(strB);
+    string strC(strB);
     cout << "strC = " << strC << endl;
-
+ 
+    string strD = strC;
+    cout << "strD = " << strD << endl;
     return 0;
 }
