@@ -9,9 +9,10 @@
 * 存储的元素数目是动态的，由deque类管理内存
 
 ### std_deque的使用
-* 实例化
-* 末尾添加元素
-* 在指定位置插入元素
-* 访问deque中的元素
-* 删除deque中的元素
-* deque的大小和容量
+* [实例化](../09_STL_Guide/STL_deque/instantation.cpp)  
+* [头部添加元素](../09_STL_Guide/STL_deque/push_front_deque.cpp)  
+* [末尾添加元素](../09_STL_Guide/STL_deque/pushback_deque.cpp)  
+* [在指定位置插入元素](../09_STL_Guide/STL_deque/instantation.cpp)  
+* [访问deque中的元素](../09_STL_Guide/STL_deque/instantation.cpp)  
+* [删除deque中的元素](../09_STL_Guide/STL_deque/instantation.cpp)  
+* [deque的大小和容量](../09_STL_Guide/STL_deque/instantation.cpp)  
