@@ -8,7 +8,7 @@
 * 访问string的字符内容  
 	1). [下标方式访问](../09_STL_Guide/STL_string/access_string_by_index.cpp)  
 	2). [迭代器方式访问](../09_STL_Guide/STL_string/access_string_by_iterator.cpp)  
-* 连接
+* [连接](../09_STL_Guide/STL_string/link_strings.cpp)
 * 查找字符和子字符串
 * 截断
 * 字符串反转

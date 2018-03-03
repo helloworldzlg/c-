@@ -9,7 +9,7 @@ int main()
     cout << "strA = " << strA << endl;
 
     size_t index = 0;
-    string::const_iterator iteratorA = strA.begin();
+    string::const_iterator iteratorA;
     for (iteratorA = strA.begin(); iteratorA < strA.end(); iteratorA++)
     {
         cout << "strA[" << index << "] = " << *iteratorA << endl;
